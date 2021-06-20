@@ -17,7 +17,7 @@ public class BasicDataType {
         // 자동 형 변환
         byte b1 = 10;
         int i1 = b1;
-        System.out.println(b1);
+        System.out.println(i1);
 
         // 명시적 형 변환
         int i2 = 100;
