@@ -4,7 +4,19 @@ import java.util.ArrayList;
 
 public class ListClass {
     public static void main(String[] args) {
-        ArrayList pitches = new ArrayList();
+        // Non-Generic
+        ArrayList temp_list = new ArrayList();
+        // Generic
+        ArrayList<String> pitches = new ArrayList<String>();
+        String temp_s;
+
+        temp_list.add("string");
+        pitches.add("string");
+        temp_s = (String) temp_list.get(0); // 형변환 필수
+        System.out.println(temp_s);
+        temp_s = pitches.get(0);
+        System.out.println(temp_s); // 형변환 필요 없음
+
         pitches.add("138");
         pitches.add("129");
         pitches.add("142");
