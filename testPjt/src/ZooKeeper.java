@@ -15,5 +15,7 @@ public class ZooKeeper {
         Lion lion = new Lion();
         zooKeeper.feed(tiger);
         zooKeeper.feed(lion);
+        System.out.println(tiger.isPredator());
+        System.out.println(lion.isPredator());
     }
 }
