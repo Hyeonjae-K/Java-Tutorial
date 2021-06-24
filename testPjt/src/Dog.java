@@ -1,6 +1,10 @@
 package testPjt.src;
 
 public class Dog extends Animal {
+    // default Constructor
+    public Dog() {
+    }
+
     public void sleep() {
         System.out.println(this.name + " zzz");
     }
