@@ -24,5 +24,6 @@ public class P1084 {
             }
         }
         bw.write(String.valueOf(cnt));
+        bw.flush();
     }
 }
